@@ -31,7 +31,7 @@ def predict():
     arv_hr=int(b[6])
     lists_asd=[idx_Org,idx_des,airln_idx,dep_month,dep_day,arv_month,arv_day,dep_hr,arv_hr]
     delay_time=int(abs(idx_Org-idx_des)/3+airln_idx/3+dep_month/3+abs(dep_day-arv_day)/2+abs(dep_hr-arv_hr))
-    #a=b[0:3] ###DOOMAN
+    #a=b[0:3] ###DOOMA
     a=[1,2,3]
     int_features = [int(x) for x in a] ###DOOMAN
     int_features = int_features 
